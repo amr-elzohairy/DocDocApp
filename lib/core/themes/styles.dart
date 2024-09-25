@@ -33,4 +33,14 @@ class TextStyles {
     fontWeight: FontWeight.w400,
     color: AppColors.gray,
   );
+  static TextStyle font14GrayInter = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.gray,
+  );
+  static TextStyle font14BlueDarkInter = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.blueDark,
+  );
 }
