@@ -13,7 +13,7 @@ class CustomTextFormField extends StatelessWidget {
     this.hintTextStyle,
     required this.hintText,
     this.isObsecureText,
-    required this.suffixIcon,
+    this.suffixIcon,
   });
   final EdgeInsetsGeometry? contentPadding;
   final InputBorder? focusedBorder;
@@ -22,7 +22,7 @@ class CustomTextFormField extends StatelessWidget {
   final TextStyle? hintTextStyle;
   final String hintText;
   final bool? isObsecureText;
-  final Widget suffixIcon;
+  final Widget? suffixIcon;
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +54,7 @@ class CustomTextFormField extends StatelessWidget {
         hintStyle: hintTextStyle ?? TextStyles.font14GrayInter,
         suffixIcon: suffixIcon,
       ),
-      style:inputTextStyle ?? TextStyles.font14BlueDarkInter,
+      style: inputTextStyle ?? TextStyles.font14BlueDarkInter,
       obscureText: isObsecureText ?? false,
     );
   }

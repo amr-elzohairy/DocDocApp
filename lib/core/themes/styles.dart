@@ -43,4 +43,14 @@ class TextStyles {
     fontWeight: FontWeight.w500,
     color: AppColors.blueDark,
   );
+  static TextStyle font13BlueRegular = TextStyle(
+    fontSize: 13.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColors.mainBlue,
+  );
+  static TextStyle font11lightGrayRegular = TextStyle(
+    fontSize: 11.sp,
+    fontWeight: FontWeight.normal,
+    color: AppColors.grayFont,
+  );
 }
