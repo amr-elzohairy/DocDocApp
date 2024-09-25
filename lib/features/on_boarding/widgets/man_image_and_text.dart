@@ -30,11 +30,10 @@ class ManImageAndText extends StatelessWidget {
             right: 0,
             child: Text(
               'Best Doctor\nAppointment App',
-              style: TextStyles.font32Blue24bold.copyWith(
+              style: TextStyles.font32Bluebold.copyWith(
                 height: 1.4,
               ),
               textAlign: TextAlign.center,
-              
             )),
       ],
     );
