@@ -8,6 +8,11 @@ class TextStyles {
     fontWeight: FontWeight.bold,
     color: AppColors.black,
   );
+  static TextStyle font14BlueSemiBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
+    color: AppColors.mainBlue,
+  );
   static TextStyle font32Bluebold = TextStyle(
     fontSize: 32.sp,
     fontWeight: FontWeight.bold,
@@ -40,6 +45,11 @@ class TextStyles {
   );
   static TextStyle font14BlueDarkInter = TextStyle(
     fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: AppColors.blueDark,
+  );
+  static TextStyle font15BlueDark = TextStyle(
+    fontSize: 15.sp,
     fontWeight: FontWeight.w500,
     color: AppColors.blueDark,
   );

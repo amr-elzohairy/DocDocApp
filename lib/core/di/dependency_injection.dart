@@ -10,6 +10,8 @@ final getIt = GetIt.instance;
 void setupGetIt() {
   final Dio dio = DioFactory.getDio();
   getIt.registerLazySingleton<ApiService>(() => ApiService(dio));
-  getIt.registerLazySingleton<LoginRepo>(()=>getIt());
-  getIt.registerLazySingleton<LoginCubit>(()=>getIt());
+   // login
+  getIt.registerLazySingleton<LoginRepo>(() => LoginRepo(getIt()));
+  getIt.registerFactory<LoginCubit>(() => LoginCubit(getIt()));
+
 }
